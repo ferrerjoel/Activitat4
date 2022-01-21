@@ -23,7 +23,7 @@ class Matrius_4{
     //Omplim al array de '*'
     for (int i = 0; i < 5; i++) {
       for (int j = 0; j < 5; j++) {
-        map[i][j] = '*';
+        map[i][j] = 'X';
       }
     }
 
@@ -117,5 +117,6 @@ class Matrius_4{
     System.out.println("ENHORABONA! HAS GUANYAT EN "+plays+" INTENTS (comptant acerts).");
     
     input.close();
+    
   }
 }
